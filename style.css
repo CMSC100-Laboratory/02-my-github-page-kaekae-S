@@ -1,0 +1,109 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #282c34;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.featured-photo {
+    text-align: center;
+    margin: 20px;
+}
+
+.featured {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+#projects {
+    padding: 20px;
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.project-box {
+    width: 200px;
+    height: 150px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.skills-autobio {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.skills-box, .autobio-box {
+    width: 45%;
+    height: 150px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.small-box {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+}
+
+.footer-details {
+    text-align: left;
+}
+
+.back-to-top {
+    color: white;
+    text-decoration: none;
+}
